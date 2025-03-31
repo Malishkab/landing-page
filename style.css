@@ -1,0 +1,151 @@
+
+header{
+    background-color: #1f2937;
+}
+header div{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: "Roboto", sans-serif;
+}
+.same{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 5px;
+    align-self: flex-end;
+}
+.head{
+    display: flex;
+    justify-content: end;
+}
+.first{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    gap: 5px;
+    margin-bottom: 0;
+    
+}
+.text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 75%;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.text p{
+    font-size: 18px;
+    color: #f9faf8;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 0;
+}
+.text button{
+    background-color: #3882F6;
+    margin-left: 50px;
+}
+.text img{
+    
+    
+    padding-right: 200px;
+}
+.second{
+    background-color: #f9faf8;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 50px;
+    
+}
+.second h2{
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 30px;
+    text-align: center;
+    width: 850px;
+}
+.box>div{
+    border: 3px solid #3882F6;
+    height: 200px;
+    border-radius: 15%;
+}
+.box>*{
+    flex: 1;
+}
+.third{
+    background-color: #e5e7eb;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+#mm{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+#ms{
+    font-size: 15px;
+    color: #1f2937;
+    font-weight: 500;
+}
+footer{
+    background-color: #1f2937;
+    height: 50px;
+}
+footer p{
+    color: #e5e7eb;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.fourth{
+    background-color: #f9faf8;
+    padding-top: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth div{
+    background-color: #3882F6;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.fourth div p{
+    color: #e5e7eb;
+    width: 50%;
+
+}
+.fourth div button{
+  background-color: #3882F6;
+  border: 3px solid white;
+  height: 40px;
+  width: 70px;
+  color: white;
+}
